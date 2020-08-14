@@ -1,0 +1,8 @@
+
+.icon-users:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-phone:before { content: '\e802'; } /* '' */
+.icon-camera:before { content: '\e805'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-info:before { content: '\f129'; } /* '' */
+.icon-facebook-squared:before { content: '\f30e'; } /* '' */

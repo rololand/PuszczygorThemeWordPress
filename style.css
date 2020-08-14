@@ -1,0 +1,371 @@
+/*
+Theme Name: Puszczygór
+Author: kontakt@rololand.pl
+*/
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/*my css*/
+body {
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+/*background*/
+.background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -10;
+}
+.background img {
+	width: 100%;
+	object-fit: cover;
+}
+#bg1,#bg2, #bg3, #bg4, #bg5 {
+	position: absolute;
+}
+#bg2, #bg3, #bg4, #bg5 {
+	opacity: 0;
+}
+header{
+	background-color: rgba(231,231,233,0.9);
+	margin-top: 20px;
+}
+.nav {
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbar-inverse {
+	background-color: rgba(231,231,233,0.9);
+	font-weight: 700;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 20px;
+}
+.navbar-toggle{
+	background-color: #5aa73f;
+}
+.navbar-inverse .navbar-nav .nav-link {
+	color: #5aa73f;
+}
+.navbar-inverse .navbar-nav .nav-link > a {
+	color: #5aa73f;
+}
+.navbar-inverse .navbar-nav .nav-link:focus {
+	color: #5aa73f;
+}
+.navbar-inverse .navbar-nav > li:hover > a:hover {
+	color: #ed1b24;
+}
+.navbar-inverse .navbar-nav > li > a:visited {
+	color: #5aa73f;
+}
+.navbar-inverse .navbar-nav .open a:focus {
+	color: #ed1b24;
+	background-color: rgba(231,231,233,0.9);
+}
+.navbar-inverse .navbar-nav .open a:visited {
+	background-color: rgba(231,231,233,0.9);
+}
+.navbar-inverse .navbar-nav .active a {
+	color: #ed1b24;
+}
+.navbar-inverse .navbar-nav .active a:hover {
+	color: #ed1b24;
+}
+.navbar-inverse .navbar-nav .active a:visited {
+	background-color: rgba(231,231,233,0.9);
+	color: #ed1b24;
+}
+/*timer*/
+.timer {
+	color: #43515a;
+	font-size: 20px;
+}
+.timer span {
+
+}
+/*post glowna*/
+.entry {
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgba(231,231,233,0.9);
+	color: #5aa73f;
+}
+.entry a {
+	color: #43515a;
+}
+.entry a:hover {
+	color: #ed1b24;
+	text-decoration: none;
+}
+.entry a:visited {
+	text-decoration: none;
+}
+.entry a:focus {
+	text-decoration: none;
+}
+/*pagination*/
+.pagination {
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgba(231,231,233,0.9);
+	color: #5aa73f;
+	font-size: 16px;
+}
+.pagination h2 {
+  padding-right: 10px;
+	font-size: 16px;
+  margin-bottom: 0px;
+}
+.pagination a {
+	color: #43515a;
+}
+.pagination a:hover {
+	color: #ed1b24;
+	text-decoration: none;
+}
+.pagination a:visited {
+	text-decoration: none;
+}
+.pagination a:focus {
+	text-decoration: none;
+}
+
+/*sidebar*/
+.sidebar_content {
+	max-width: 100%;
+}
+.sidebar {
+	max-width: 100%;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgba(231,231,233,0.9);
+	color: #5aa73f;
+	text-align: center;
+}
+.sidebar h1 {
+	color: #ed1b24;
+}
+.sidebar  a {
+	color: #ffca08;
+}
+.sidebar  a:hover {
+	text-decoration: none;
+}
+.sidebar a:visited {
+	text-decoration: none;
+}
+.sidebar  a:focus {
+	text-decoration: none;
+}
+.btn-group {
+	max-width: 100%;
+
+}
+.dropdown-menu {
+	width: 100%;
+	background-color: rgba(231,231,233,0.9);
+}
+.dropdown-menu li {
+	text-align: center;
+	width: 100%;
+}
+.dropdown-menu li a{
+	color: #5aa73f;
+}
+.dropdown-menu li:hover a:hover{
+	background-color: rgba(231,231,233,0.9);
+}
+.btn-default {
+	background-color: transparent;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .open {
+	background-color: transparent;
+}
+.img-sidebar {
+    max-width: 100%;
+    max-height: 100%;
+}
+#runlabel {
+	font-size: 22px;
+}
+#runlabel span {
+	font-weight: 700;
+}
+
+/*strona szablon*/
+.strona_szablon {
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgba(231,231,233,0.9);
+	color: #5aa73f;
+}
+.strona_szablon h1 {
+	color: #43515a;
+}
+
+/*footer*/
+.footer {
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: rgba(231,231,233,0.9);
+	color: #5aa73f;
+	text-align: center;
+}
+.footer a {
+	color: #43515a;
+}
+.footer a:hover {
+	color: #ed1b24;
+	text-decoration: none;
+}
+.footer a:visited {
+	text-decoration: none;
+}
+.footer a:focus {
+	text-decoration: none;
+}
+
+/*galeria*/
+.image {
+	width: 25%;
+	/*height: 100px;*/
+	float: left;
+	display: block;
+	overflow: hidden;
+}
+.image img {
+	width: 100%;
+	height: 100%;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
+.image img:hover {
+	opacity: 0.7;
+	transition: opacity 0.5s;
+}
+
+/*wspolpraca*/
+.partnerzy {
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.partnerzy a img {
+	margin-bottom: 50px;
+}
+
+/*kontakt*/
+#kontakt {
+	text-align: center;
+}
+.kontakt_tail {
+	width: 48%;
+	text-align: center;
+	display: inline-block;
+}
+.kontakt_face {
+	width: 60%;
+	margin: auto;
+
+}
+.kontakt_face img {
+	width: 100%;
+	border-radius: 100%;
+	padding: 5px;
+	border: 1px solid #5aa73f;
+}
+#logoPuszczykBukowy {
+	width: 40%;
+	margin-bottom: 40px;
+}
+@media (max-width: 991px) {
+	.tail {
+	font-size: 14px;
+	}
+	.background img {
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (min-width: 768px) {
+    /*.navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+*/
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
